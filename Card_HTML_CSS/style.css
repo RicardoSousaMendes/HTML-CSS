@@ -1,0 +1,71 @@
+:root {
+    --color-neutral-900: hsl(207, 19%, 9%);
+    --color-neutral-100: hsl(0, 0%, 100%);
+    --color-accent-400:  hsl(354, 100%, 38%);
+  }
+  
+  
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+body {
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    line-height: 1.6;
+    font-family: sans-serif;
+    background-color: var(--color-neutral-900)    
+}
+
+.card {
+    color: var(--color-neutral-100);
+    background-image: url(./assets/pexels-melvin-buezo-2529157-LG.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    max-width: 35ch;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.card-content {
+    padding: 1.5em;
+    background: linear-gradient(to bottom,
+     hsla(0, 0%, 0%, 0), 
+     hsla(0, 0%, 0%, 0.3) 20%,
+     hsla(0, 0%, 0%, 1)
+     );
+}
+
+.card-title {
+    position: relative;
+    width: max-content;
+    }
+
+.card-title::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    background-color: var(--color-accent-400);
+}
+
+.button {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color-neutral-900);
+    background-color: var(--color-accent-400);
+    padding: 0.5em 1.25em;
+    border-radius: 0.5em;
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--color-neutral-100);     
+}

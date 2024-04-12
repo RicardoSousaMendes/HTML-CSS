@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(27, 27, 27);
+}
+
+.container {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 16px;
+}
+
+.card-image {
+    height: 200px; 
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 18px 18px 0 0;
+}
+
+.guitar-1{
+    background-image: url(./assets/pexels-alexey-12976809.jpg)
+}
+
+.guitar-2{
+    background-image: url(./assets/pexels-boris-pavlikovsky-7715036.jpg)
+}
+
+.guitar-3{
+    background-image: url(./assets/pexels-photo-165971.jpeg)
+}

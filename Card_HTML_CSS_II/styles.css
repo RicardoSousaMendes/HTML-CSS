@@ -8,17 +8,17 @@ body {
     background-color: rgb(27, 27, 27);
 }
 
-.container {
-    display: inline-flex;
+.container-wrapper {
+    display: flex;
     justify-content: center;
 }
 
 .card {
     background: white;
     width: 270px;
-    height: 400px;
+    /*height: 400px;*/
     margin: 10px;
-    border-radius: 16px;
+    border-radius: 20px;
 }
 
 .card-image {
@@ -38,4 +38,23 @@ body {
 
 .guitar-3{
     background-image: url(./assets/pexels-photo-165971.jpeg)
+}
+
+.card h2 {
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+}
+
+.card a {
+    background-color: rgb(255, 145, 0);
+    color: teal;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 40px;
+    border-bottom: 20px;
+    
 }

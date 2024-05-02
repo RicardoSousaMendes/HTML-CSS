@@ -9,6 +9,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Design System</title>
 		<link rel="stylesheet" href="styles/globals.css" />
+		<link rel="stylesheet" href="./styles/avatar.css">
+		<link rel="stylesheet" href="./styles/buttons.css">
+		<link rel="stylesheet" href="./styles/input.css">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -16,6 +19,17 @@
 			<div class="wrapper__content">
 				<div class="flex">
 					<!-- Conteúdo aqui -->
+
+					<div class="avatar avatar--sm">
+						<img src="./assets/user.jpeg"/> <!-- coloquei as imagens maiores para uma questão de conseguir as ver melhor -->
+					  </div>
+					  <div class="avatar avatar--md">
+						<img src="./assets/user.jpeg"/>
+					  </div>
+					  <div class="avatar avatar--lg">
+						<img src="./assets/user.jpeg"/>
+					  </div>
+
 				</div>
 			</div>
 		</div>
@@ -25,6 +39,50 @@
 			<div class="wrapper__content">
 				<div class="flex">
 					<!-- Conteúdo aqui -->
+
+					<div class="buttons">
+					<button class="default">Label</button>
+					<button class="default--icon--left">
+						<svg width="16px" height="16px" version="1.1">
+  						<image class="zap--svg" href="./assets/flashlight-line.svg"/></svg> Label
+					</button>
+					<button class="default--icon--right">Label
+						<svg width="16px" height="16px" version="1.1">
+							<image class="zap--svg" href="./assets/flashlight-line.svg"/></svg> 
+					</button>
+
+					<button class="hover--default">Label</button>
+					<button class="hover--default--icon--left">
+						<svg width="16px" height="16px" version="1.1">
+						<image class="zap--svg" href="./assets/flashlight-line.svg"/></svg> Label </button>
+					<button class="hover--default--icon--right">Label
+						<svg width="16px" height="16px" version="1.1">
+							<image class="zap--svg" href="./assets/flashlight-line.svg"/></svg>
+						</button>
+					</button>
+
+					<button class="press--default">Label</button>
+					<button class="press--default--icon--left">
+						<svg width="16px" height="16px" version="1.1">
+						<image class="zap--svg" href="./assets/flashlight-line.svg"/></svg> Label </button>
+					<button class="press--default--icon--right">Label
+						<svg width="16px" height="16px" version="1.1">
+							<image class="zap--svg" href="./assets/flashlight-line.svg"/></svg>
+						</button>
+					</button>
+					
+					<button class="disabled--default">Label</button>
+					<button class="disabled--icon--left">
+						<svg width="16px" height="16px" version="1.1">
+						<image class="zap--svg" href="./assets/flashlight-line.svg"/></svg> Label </button>
+					<button class="disabled--icon--right">Label
+						<svg width="16px" height="16px" version="1.1">
+							<image class="zap--svg" href="./assets/flashlight-line.svg"/></svg>
+						</button>
+					</button>
+
+				</div>
+
 				</div>
 			</div>
 		</div>
@@ -34,9 +92,42 @@
 			<div class="wrapper__content">
 				<div class="flex">
 					<!-- Conteúdo aqui -->
+					
+					<div class="input--boxes--1">
+					
+					
+					<form action="">
+						<div class="input--container">
+							<label for="field--label">Field Label</label> 
+							<div class="form--input">
+								<input class="input-field" type="text" name="name" placeholder="Placeholder">
+								<!-- <i class="icon" data-feather="database"></i> -->
+							</div>	
+						</div>
+		
+
+					</div>	
+
+					<form action="">
+						<div class="input--container--2">
+							<label for="field--label">Field Label</label> 
+							<div class="form--input">
+								<i class="icon" data-feather="database"></i>
+								<input class="input-field" type="text" name="name" placeholder="Placeholder">
+								
+							</div>	
+						</div>
+		
+
+					</div>	
+
+				</div>
+					
+					
 				</div>
 			</div>
 		</div>
+		
 	</body>
 	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 	<script>

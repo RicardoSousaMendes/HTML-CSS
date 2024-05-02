@@ -1,0 +1,35 @@
+.title{
+    color: white;
+    opacity: .8;
+
+}  
+
+.container--1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.perspective--square{
+    background-color: var(--primary--color);
+    height: 100px;
+    width: 200px;
+    margin: 25px;
+    transform: skew(330deg, 360deg) translate(0px, 10px);
+    border-radius: 6px;
+    box-shadow: 25px 25px 12px 12px rgb(86, 86, 86);
+    animation-name: translate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes translate {
+    100%{
+        transform: skew(330deg, 360deg) translate(10px, 40px);
+        
+    }
+}
+
+

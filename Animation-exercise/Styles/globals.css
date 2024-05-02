@@ -1,0 +1,20 @@
+:root{
+    --background: #ff9292;
+    --primary--color: #7e56ff;
+}
+
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background: #ff9292;
+    
+}
+

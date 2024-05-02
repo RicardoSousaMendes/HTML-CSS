@@ -9,6 +9,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 64px 0;
+    border-bottom: 1px solid white;
+    width: 90vw;
 }
 
 .perspective--square{

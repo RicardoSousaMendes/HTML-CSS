@@ -33,6 +33,7 @@ a {
 .form {
     display: flex;
     flex-direction: column;
+    padding-top: 16px;
 }
 
 .form--inline{

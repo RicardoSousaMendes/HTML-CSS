@@ -1,1 +1,0 @@
-esta pasta serve para guardar exercícios que fundo fazendo ao ver vídeos no youtube e assim

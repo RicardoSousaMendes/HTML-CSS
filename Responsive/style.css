@@ -1,0 +1,81 @@
+@media (min-width: 768px) {
+    /* your styles here */
+}
+
+*{
+    list-style-type: none;
+}
+
+.container{
+    width: 60%;
+}
+
+.title-yellow {
+    color: yellow;
+}
+
+.white-list {
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.yellow-list {
+    color: yellow;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+    background-color: #272727;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+.card img{
+    height: 150px;
+    width: 150px;
+    align-self: center;
+}
+
+.card--parent{
+    display: flex;
+}
+
+.card{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #404040;
+    padding: 12px;
+    margin: 16px;
+}
+
+.title--card{
+    color: white;
+    
+}
+
+.paragraph--card{
+    color: white;
+}
+
+.date--card{
+    color: #307BEC;
+}

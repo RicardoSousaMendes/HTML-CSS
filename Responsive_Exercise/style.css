@@ -1,0 +1,143 @@
+* {
+    list-style-type: none;
+}
+
+.container {
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.title-yellow {
+    color: yellow;
+}
+
+.white-list ul {
+    width: 300px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #272727;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+.card img {
+    height: 150px;
+    width: 150px;
+    align-self: center;
+    border-radius: 8px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    background-color: #404040;
+    padding: 12px;
+    margin: 8px;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #5e5e5e;
+
+}
+
+.paragraph--card {
+    text-overflow: clip;
+}
+
+.card:first-child {
+    margin-left: 0;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.title--card {
+    color: white;
+}
+
+.paragraph--card {
+    color: white;
+}
+
+.date--card {
+    color: #307bec;
+}
+
+.yellow-list-1 {
+    color: yellow;
+    display: none;
+}
+
+.yellow-list-2 {
+    color: yellow;
+    display: flex;
+}
+
+@media (min-width: 640px) {
+    .card--parent {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .yellow-list-1 {
+        display: flex;
+    }
+
+    .yellow-list-2 {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .card--parent {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .paragraph--card {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .yellow-list-1 {
+        display: flex;
+    }
+}
